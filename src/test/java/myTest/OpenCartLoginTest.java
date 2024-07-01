@@ -15,7 +15,7 @@ public class OpenCartLoginTest extends BaseTest {
 	public void loginPagetitleTest() {
 		String actualTitle =driver.getTitle();
 		System.out.println("page title is :"+actualTitle);
-		Assert.assertEquals(actualTitle,"Account Login","----title is not matched----");
+		Assert.assertEquals(actualTitle,"Account Login","----title is not matched ..----");
 	}
 	
 	@Test(description ="checking page current url")
